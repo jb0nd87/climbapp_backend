@@ -6,6 +6,7 @@ const ClimbListSchema = new Schema(
     {
         name: String,
         description: String,
+        image: String,
     },
     { timestamps: true }
 )
